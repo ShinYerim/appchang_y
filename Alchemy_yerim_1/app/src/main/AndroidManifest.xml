@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="emirim.hs.kr.alchemy_yerim_1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".AppIntroduce_01"
+            android:label="@string/title_activity_app_introduce" >
+        </activity>
+        <activity
+            android:name=".HowToPlay"
+            android:label="@string/title_activity_howtoplay" >
+        </activity>
+        <activity
+            android:name=".GamePlay"
+            android:label="@string/title_activity_game_play" >
+        </activity>
+        <activity
+            android:name=".AppIntroduce_02"
+            android:label="@string/title_activity_app_introduce_02" >
+        </activity>
+        <activity
+            android:name=".AppIntroduce_03"
+            android:label="@string/title_activity_app_introduce_03" >
+        </activity>
+        <activity
+            android:name=".AppIntroduce"
+            android:label="@string/title_activity_app_introduce"
+            >
+        </activity>
+
+    </application>
+
+</manifest>
